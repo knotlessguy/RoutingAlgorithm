@@ -1,12 +1,12 @@
 # RoutingAlgorithm
 
 # Structure of the repo
-./RoutingAlgorithm/
-./RoutingAlgorithm/sampleoutput.txt
-./RoutingAlgorithm/sampleinput.txt
-./RoutingAlgorithm/routing_algo.cpp
-./RoutingAlgorithm/node.h
-./RoutingAlgorithm/main.cpp
+* ./RoutingAlgorithm/
+* ./RoutingAlgorithm/sampleoutput.txt
+* ./RoutingAlgorithm/sampleinput.txt
+* ./RoutingAlgorithm/routing_algo.cpp
+* ./RoutingAlgorithm/node.h
+* ./RoutingAlgorithm/main.cpp
 As you can see, the repo has five files.The main algorithm lies in the file routing_algo.cpp. The sample input and output files will help us test our code. You can compile the code as follows to create the 'rip' executable.
 
   g++ -std=c++11 main.cpp routing_algo.cpp -o rip
